@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_afa458003ebf23d8be9503e692bacbd0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_afa458003ebf23d8be9503e692bacbd0" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_afa458003ebf23d8be9503e692bacbd0 = L.map(
+                "map_afa458003ebf23d8be9503e692bacbd0",
+                {
+                    center: [41.163, -7.787],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_48f2c5b30f0652da396841a22d28f1c9 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_afa458003ebf23d8be9503e692bacbd0);
+        
+    
+            var marker_964240c93bc2c44ea8a2dcaab9ff3e5e = L.marker(
+                [41.163, -7.787],
+                {}
+            ).addTo(map_afa458003ebf23d8be9503e692bacbd0);
+        
+    
+            var div_icon_bb614803b3659285fee5b91696d9a2ae = L.divIcon({"className": "empty", "html": "\n            \u003cdiv style=\"font-family: Arial; color: white; font-size: 14px; background-color: black; \n            border: 2px solid white; padding: 5px; border-radius: 5px; font-weight: bold; display: inline-block;\"\u003e\n            \u2605 Peso da R\u00e9gua\n            \u003c/div\u003e"});
+            marker_964240c93bc2c44ea8a2dcaab9ff3e5e.setIcon(div_icon_bb614803b3659285fee5b91696d9a2ae);
+        
+    
+            var marker_70dd3222c47a499e8a3933ce5f57190b = L.marker(
+                [41.191, -7.545],
+                {}
+            ).addTo(map_afa458003ebf23d8be9503e692bacbd0);
+        
+    
+            var div_icon_178c485b8d1372c55cfe5e79b28ef315 = L.divIcon({"className": "empty", "html": "\n            \u003cdiv style=\"font-family: Arial; color: white; font-size: 14px; background-color: black; \n            border: 2px solid white; padding: 5px; border-radius: 5px; font-weight: bold; display: inline-block;\"\u003e\n            \u2605 Pinh\u00e3o\n            \u003c/div\u003e"});
+            marker_70dd3222c47a499e8a3933ce5f57190b.setIcon(div_icon_178c485b8d1372c55cfe5e79b28ef315);
+        
+    
+            var marker_eca2177c653e127875b10c4178720a92 = L.marker(
+                [41.1, -7.812],
+                {}
+            ).addTo(map_afa458003ebf23d8be9503e692bacbd0);
+        
+    
+            var div_icon_5aea6964c8a3daced03fef9b44417ad0 = L.divIcon({"className": "empty", "html": "\n            \u003cdiv style=\"font-family: Arial; color: white; font-size: 14px; background-color: black; \n            border: 2px solid white; padding: 5px; border-radius: 5px; font-weight: bold; display: inline-block;\"\u003e\n            \u2605 Lamego\n            \u003c/div\u003e"});
+            marker_eca2177c653e127875b10c4178720a92.setIcon(div_icon_5aea6964c8a3daced03fef9b44417ad0);
+        
+    
+            var marker_6a6142956b83e7923a0e6bffb3cc0ee7 = L.marker(
+                [41.148, -7.401],
+                {}
+            ).addTo(map_afa458003ebf23d8be9503e692bacbd0);
+        
+    
+            var div_icon_9e5b31a8622d23b7569f55e7e78712e2 = L.divIcon({"className": "empty", "html": "\n            \u003cdiv style=\"font-family: Arial; color: white; font-size: 14px; background-color: black; \n            border: 2px solid white; padding: 5px; border-radius: 5px; font-weight: bold; display: inline-block;\"\u003e\n            \u2605 S\u00e3o Jo\u00e3o da Pesqueira\n            \u003c/div\u003e"});
+            marker_6a6142956b83e7923a0e6bffb3cc0ee7.setIcon(div_icon_9e5b31a8622d23b7569f55e7e78712e2);
+        
+    
+            var marker_60f9e636c113d680880fec4dd4730455 = L.marker(
+                [41.116, -7.566],
+                {}
+            ).addTo(map_afa458003ebf23d8be9503e692bacbd0);
+        
+    
+            var div_icon_09997309d4c47b22e3956417a1daa7d1 = L.divIcon({"className": "empty", "html": "\n            \u003cdiv style=\"font-family: Arial; color: white; font-size: 14px; background-color: black; \n            border: 2px solid white; padding: 5px; border-radius: 5px; font-weight: bold; display: inline-block;\"\u003e\n            \u2605 Tabua\u00e7o\n            \u003c/div\u003e"});
+            marker_60f9e636c113d680880fec4dd4730455.setIcon(div_icon_09997309d4c47b22e3956417a1daa7d1);
+        
+    
+            var marker_8c983a56c6d8c640231ccaad49aa079d = L.marker(
+                [41.163, -7.873],
+                {}
+            ).addTo(map_afa458003ebf23d8be9503e692bacbd0);
+        
+    
+            var div_icon_27363719c4433235917842485d8ba9f1 = L.divIcon({"className": "empty", "html": "\n            \u003cdiv style=\"font-family: Arial; color: white; font-size: 14px; background-color: black; \n            border: 2px solid white; padding: 5px; border-radius: 5px; font-weight: bold; display: inline-block;\"\u003e\n            \u2605 Mes\u00e3o Frio\n            \u003c/div\u003e"});
+            marker_8c983a56c6d8c640231ccaad49aa079d.setIcon(div_icon_27363719c4433235917842485d8ba9f1);
+        
+    
+            var marker_d5edbe9c26afc206bf9ad1fc5e9b597b = L.marker(
+                [41.295, -7.746],
+                {}
+            ).addTo(map_afa458003ebf23d8be9503e692bacbd0);
+        
+    
+            var div_icon_7e3a205200b0a650890d41b2cbb53bcd = L.divIcon({"className": "empty", "html": "\n            \u003cdiv style=\"font-family: Arial; color: white; font-size: 14px; background-color: black; \n            border: 2px solid white; padding: 5px; border-radius: 5px; font-weight: bold; display: inline-block;\"\u003e\n            \u2605 Vila Real\n            \u003c/div\u003e"});
+            marker_d5edbe9c26afc206bf9ad1fc5e9b597b.setIcon(div_icon_7e3a205200b0a650890d41b2cbb53bcd);
+        
+    
+            var marker_9225431311cdca52b19605984261684e = L.marker(
+                [41.107, -7.691],
+                {}
+            ).addTo(map_afa458003ebf23d8be9503e692bacbd0);
+        
+    
+            var div_icon_e1be0e499304cdb91c5fc5551d35e7ae = L.divIcon({"className": "empty", "html": "\n            \u003cdiv style=\"font-family: Arial; color: white; font-size: 14px; background-color: black; \n            border: 2px solid white; padding: 5px; border-radius: 5px; font-weight: bold; display: inline-block;\"\u003e\n            \u2605 Armamar\n            \u003c/div\u003e"});
+            marker_9225431311cdca52b19605984261684e.setIcon(div_icon_e1be0e499304cdb91c5fc5551d35e7ae);
+        
+    
+            var marker_da12fd5102697fcccd08e4555969c503 = L.marker(
+                [41.1603, -7.7895],
+                {}
+            ).addTo(map_afa458003ebf23d8be9503e692bacbd0);
+        
+    
+            var div_icon_3470d7af042f0b4f0dd711b1d91054f7 = L.divIcon({"className": "empty", "html": "\n            \u003cdiv style=\"font-family: Arial; color: black; font-size: 14px; background-color: yellow; \n            border: 2px solid black; padding: 5px; border-radius: 5px; font-weight: bold; display: inline-block;\"\u003e\n            \u2605 Six Senses Douro Valley\n            \u003c/div\u003e"});
+            marker_da12fd5102697fcccd08e4555969c503.setIcon(div_icon_3470d7af042f0b4f0dd711b1d91054f7);
+        
+</script>
+</html>
